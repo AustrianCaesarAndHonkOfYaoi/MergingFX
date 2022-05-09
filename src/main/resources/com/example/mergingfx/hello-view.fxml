@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mergingfx.HelloController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextField fx:id="dest1" layoutX="87.0" layoutY="104.0" prefHeight="26.0" prefWidth="466.0" promptText="Destination 1" />
+            <TextField fx:id="dest2" layoutX="87.0" layoutY="151.0" prefHeight="26.0" prefWidth="466.0" promptText="Destination 2" />
+            <Button fx:id="button" layoutX="507.0" layoutY="282.0" mnemonicParsing="false" onAction="#run" text="Run" />
+            <TextField fx:id="outputf" layoutX="87.0" layoutY="200.0" prefHeight="26.0" prefWidth="466.0" promptText="Outputfolder" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
